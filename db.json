@@ -1,0 +1,148 @@
+ {
+    "products":[
+        {
+            "id":0,
+            "img":"https://lilybyred.cafe24.com/web/product/big/202206/645df13036ad33fef98c1c74e06f3a70.jpg",
+            "title":"릴리바이레드 로맨틱 라이어 무스 틴트",
+            "price": "7,500원",
+            "smallprice": "10,000원",
+            "sale": "25%",
+            "choice":true,
+            "new":true,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":1,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/big/202311/2717fec6d5ea94f271bc94a025c14af1.jpg",
+            "title":"릴리바이레드 탱글 젤리밤",
+            "price": "9,900원",
+            "smallprice": "15,000원",
+            "sale": "34%",
+            "choice":false,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":2,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/big/202402/44f0fc65fc4ad2a8cab6cc12ab273add.jpg",
+            "title":"릴리바이레드 무드 라이어 벨벳 틴트",
+            "price": "7,500원",
+            "smallprice": "10,000원",
+            "sale": "25%",
+            "choice":false,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":3,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/big/202402/5f38f20f6888e498906fcb55592f0d93.jpg",
+            "title":"릴리바이레드 글래시 레이어 픽싱 틴트",
+            "price":"7,700원",
+            "smallprice": "12,000원",
+            "sale": "36%",
+            "choice":true,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":4,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/big/202306/e9d19a403463c6f7d7c507be5e609da3.jpg",
+            "title":"릴리바이레드 쥬시 라이어 워터 틴트",
+            "price": "8,800원",
+            "smallprice": "13,000원",
+            "sale": "32%",
+            "choice":true,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":5,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/small/202402/6efbb08aa4765eff18520cd7fcfebb4b.jpg",
+            "title":"릴리바이레드 쥬시 팅클 글로우 틴트",
+            "price": "9,300원",
+            "smallprice": "15,200",
+            "sale": "25%",
+            "choice":true,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":6,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/small/202403/d986645746e552473e55135b8ce612fe.jpg",
+            "title":"릴리바이레드 스무드 립라이너",
+            "price": "7,600원",
+            "smallprice": "11,000원",
+            "sale": "30%",
+            "choice":false,
+            "new":true,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":7,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/small/202402/7fae4f2a1da0c8c260c9173e0f919dce.jpg",
+            "title":"릴리바이레드 글래시 레이어 픽싱 틴트",
+            "price": "8,300원",
+            "smallprice": "13,800원",
+            "sale": "31%",
+            "choice":false,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":8,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/big/202305/8a3ee878f514bcba951cbade1b14ceac.jpg",
+            "title":"릴리바이레드 픽싱 틴트",
+            "price": "7,900",
+            "smallprice": "11,600",
+            "sale": "34%",
+            "choice":true,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":9,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/big/202309/4bcc22e8f95dce0a66da4f92405c6a1f.jpg",
+            "title":"릴리바이레드 매트 무스 립틴트 ",
+            "price": "9,800원",
+            "smallprice": "13,400원",
+            "sale": "24%",
+            "choice":false,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":10,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/small/202309/bfb2d5b4b521c3d4471e8a2671c2e3e6.jpg",
+            "title":"릴리바이레드 로맨틱 라이어 틴트",
+            "price": "7,900",
+            "smallprice": "12,000",
+            "sale": "34%",
+            "choice":true,
+            "new":true,
+            "color":["red","ornge-red","pink-red"]
+
+        },
+         {
+            "id":11,
+            "img":"https://cafe24img.poxo.com/lilybyred/web/product/small/202403/86ccf63d16b7ec2ee12fd453168ca79f.jpg",
+            "title":"릴리바이레드 앙큼 라이어 워터 틴트",
+            "price": "9,500",
+            "smallprice": "13,400",
+            "sale": "30%",
+            "choice":true,
+            "new":false,
+            "color":["red","ornge-red","pink-red"]
+
+        }
+    ]
+}
