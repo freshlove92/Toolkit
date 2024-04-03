@@ -4,8 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 import { useSearchParams } from 'react-router-dom';
-import { productAction } from '../redux/actions/productAction'
+// import { productAction } from '../redux/actions/productAction'
 import { useDispatch, useSelector} from "react-redux"
+import { fetchProducts } from '../redux/reducers/productSlice';
 
 const ProductAll = () => {
 
@@ -15,7 +16,8 @@ const ProductAll = () => {
 
     const getProduct =()=>{
         let searchQuery = query.get("q") || "";
-        dispatch(productAction.getProduct(searchQuery))
+        // dispatch(productAction.getProduct(searchQuery))
+        dispatch(fetchProducts(searchQuery))
     }
     
     useEffect(()=>{

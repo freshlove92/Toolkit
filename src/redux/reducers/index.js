@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux'
 import autheticateReducer from './autheticateReducer'
-import productReducer from './productReducer'
+import productSlice from './productSlice'
 
 export default combineReducers({
     auth: autheticateReducer,
-    product: productReducer,
+    product: productSlice,
 })

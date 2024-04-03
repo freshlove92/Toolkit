@@ -1,3 +1,4 @@
+import { productToolkitAction } from '../reducers/productSlice'
 
 function getProductDetail(id){
     return async(dispatch, getState)=>{
@@ -6,7 +7,8 @@ function getProductDetail(id){
        let data = await response.json(); 
         // setProduct(data)
 
-       dispatch({type:"GET_PRODUCT_DETAIL", payload: {data}})
+    //    dispatch({type:"GET_PRODUCT_DETAIL", payload: {data}})
+          dispatch(productToolkitAction.getProductDetail({data}))
     }
 
 }

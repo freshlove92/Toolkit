@@ -1,3 +1,4 @@
+import { productToolkitAction } from "../reducers/productSlice"
 
 function getProduct(searchQuery){
     return async(dispatch, getState)=>{
@@ -10,6 +11,7 @@ function getProduct(searchQuery){
         // setProductList(data);
 
         dispatch({type:"GET_PRODUCT_SUCCESSS", payload: {data}})
+        
     }
 }
 
@@ -25,4 +27,4 @@ function getProductDetail(id){
 
 }
 
-export const productAction = {getProduct,getProductDetail}
+export const productAction = {getProductDetail}

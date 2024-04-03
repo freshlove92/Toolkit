@@ -2,21 +2,21 @@ import { useEffect, useState } from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector} from "react-redux"
-import { productAction } from '../redux/actions/productAction'
+import { fetchProductDetail } from '../redux/reducers/productSlice';
 
 const DetailProduct = () => {
 
     let {id} = useParams()
     const [isOpen, setIsOpen] = useState(false);
-    
-    const product = useSelector((state)=>state.product.selectedItem)
-    console.log("디테일 페이지 프로덕트?",product)
+    const product = useSelector((state) => state.product.selectedItem);
+    const dispatch = useDispatch();
+
+    // const product = useSelector((state)=>state.product.selectedItem)
+    // console.log("디테일 페이지 프로덕트?",product)
     // const [ product, setProduct ] = useState(null)
-   
-    const dispatch = useDispatch()
 
     const getProductDetail=()=>{
-            dispatch(productAction.getProductDetail(id))
+            dispatch(fetchProductDetail(id));
         };
 
     useEffect(()=>{

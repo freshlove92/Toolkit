@@ -1,30 +1,32 @@
-let initialState={
-    id:"",
-    password: '',
-    authenticate: false,
+import { createSlice } from "@reduxjs/toolkit";
 
-}
+// 초기 상태 정의
+const initialState = {
+  id: "",
+  password: "",
+  authenticate: false,
+};
 
-function autheticateReducer(state=initialState, action){
+// createSlice를 사용하여 슬라이스 생성
+const authSlice = createSlice({
+  name: 'auth', // 슬라이스의 이름
+  initialState,
+  reducers: {
+    
+    loginSuccess(state, action) {
+      state.id = action.payload.id;
+      state.password = action.payload.password;
+      state.authenticate = true;
+    },
+    
+    logout(state) {
+      state.id = "";
+      state.password = "";
+      state.authenticate = false;
+    },
+  },
+});
 
-    switch (action.type) {
-    case "LOGIN_SUCCESS":
-      return {
-        ...state,
-        ...action.payload, // id, password, authenticate: true
-        authenticate: true,
-      };
-    case "LOGOUT":
-      return {
-        ...state,
-        id: "",
-        password: "",
-        authenticate: false,
-      };
-    default:
-      return { ...state };
-  }
-}
-
-
-export default autheticateReducer
+// export const { loginSuccess, logout } = authSlice.actions;
+export const authToolkitAction = authSlice.actions
+export default authSlice.reducer;
